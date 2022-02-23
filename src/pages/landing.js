@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Logo from "../assets/Logo.png";
 import { Link } from "react-router-dom";
 
-export cont Landing = () => {
+export const Landing = () => {
     return (
         <div className ="bg-purply min-h-screen overflow-auto bg-scroll relative font-poppins">
         <Header /> 
@@ -13,7 +13,7 @@ export cont Landing = () => {
         <div></div>
         </span>
 
-        <span className=bg-palegreen flex rounded-full md:p-24 p-10 absolute md:bottom-10 md:-left-5 bottom-5 left-0">
+        <span className="bg-palegreen flex rounded-full md:p-24 p-10 absolute md:bottom-10 md:-left-5 bottom-5 left-0">
         <div></div>
         </span>
 
@@ -25,6 +25,23 @@ export cont Landing = () => {
       <div className="md:flex md:justify-evenly px-10 md:px-0 pt-4 md:pt-0 items-center justify-center absolute mx-auto">
         <img src={Logo} alt="img" className="md:w-2/6 md:mt-10 mt-3" />
 
+        <div className="text-white flex flex-col items-center text-center py-3">
+            <h2 className="md:text-6xl font-bold text-4xl md:mb-6 mb-2">
+               Creatives On The Go.
+            </h2>
+            <p className="md:text-3xl text-2xl leading-loose">
+                Join over 500 creatives on the go with one click
+           </p>
+                <link to="/join">
+                    <button className="rounded bg-blue-600 hover:bg-blue-700 px-10 py-3 md:mt-10 mt-4 text-xl mx-auto">
+                        Join Now
+                        </button>
+                 </Link>
+            </div>
+                        </div>
+                        </div>
+                        <div>
 
-    )
-}
+
+    );
+};
