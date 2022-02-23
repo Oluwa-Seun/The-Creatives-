@@ -1,0 +1,30 @@
+import React from "react";
+import Header from "../components/Header";
+import Logo from "../assets/Logo.png";
+import { Link } from "react-router-dom";
+
+export cont Landing = () => {
+    return (
+        <div className ="bg-purply min-h-screen overflow-auto bg-scroll relative font-poppins">
+        <Header /> 
+
+        <div className="container">
+        <span className="bg-pulp flex rounded-full md:p-12 p-16 absolute md:top-80 top-40 md:right-60 right-0">
+        <div></div>
+        </span>
+
+        <span className=bg-palegreen flex rounded-full md:p-24 p-10 absolute md:bottom-10 md:-left-5 bottom-5 left-0">
+        <div></div>
+        </span>
+
+
+        <span className="bg-pulpy flex md:bottom-0 md:right-0 rounded-full md:p-24 absolute">
+        <div></div>
+      </span>
+
+      <div className="md:flex md:justify-evenly px-10 md:px-0 pt-4 md:pt-0 items-center justify-center absolute mx-auto">
+        <img src={Logo} alt="img" className="md:w-2/6 md:mt-10 mt-3" />
+
+
+    )
+}
