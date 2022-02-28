@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { AiOutLineFacebook } from "react-icons/ai";
-import{ TiSocialTwitterCircular } from " react-icons/ti";
+import { AiOutlineFacebook } from "react-icons/ai";
+import{ TiSocialTwitterCircular } from "react-icons/ti";
 
 const Footer = () => {
     return (
@@ -35,3 +35,5 @@ const Footer = () => {
 
     );
 };
+
+export default Footer;

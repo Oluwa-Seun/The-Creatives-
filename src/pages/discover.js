@@ -2,10 +2,10 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { BiBarChartSquare, BiAlbum, BiPlus } from "react-icons/bi";
-import Theweekend from "../assets/theweekend.png";
-import Burna from "../assets/burna.png";
-import Twice from "../assets/twiceastall.png";
-import Jon from "../assets/jonbellion.png";
+import Theweekend from "../assets/Graphicsdesign.png";
+import Burna from "../assets/Graphicsdesign.png";
+import Twice from "../assets/Graphicsdesign.png";
+import Jon from "../assets/Graphicsdesign.png";
 import { Link } from "react-router-dom";
 
 export const Discover = () => {
@@ -15,7 +15,7 @@ export const Discover = () => {
       <div className="flex flex-col md:flex-row justify-center md:justify-between items-center md:mb-4">
         <div className="md:ml-32">
           <h1 className="text-3xl text-white text-center mb-8">
-            Discover New Music
+            Discover New Talents.
           </h1>
           <div className="flex justify-center items-center mx-2 my-10">
             <div className="flex flex-col justify-center items-center bg-black rounded-md p-4 w-2/6 mr-2 md:mr-6 text-white text-center">
@@ -39,7 +39,7 @@ export const Discover = () => {
             <Link to="/join">
               <span className="text-pink-700">join</span>
             </Link>
-            ing you benefit by listening to the latest albums
+            by joining you get to meet amazing talents / minds
           </h2>
         </div>
 
@@ -58,9 +58,9 @@ export const Discover = () => {
           <h2 className="md:hidden text-white text-center p-3 text-xl mb-8">
             By{" "}
             <Link to="/join">
-              <span className="text-pink-700">join</span>
+              <span className="text-pink-700">joining </span>
             </Link>
-            ing you benefit by listening to the latest albums
+              you get connected to creatives all over the world.
           </h2>
         </div>
       </div>
@@ -68,3 +68,6 @@ export const Discover = () => {
     </div>
   );
 };
+
+
+
