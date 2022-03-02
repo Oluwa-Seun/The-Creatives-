@@ -9,7 +9,7 @@ export const Join = () => {
 
       <div className="container flex flex-col md:flex-row justify-center items-center mb-32">
         <h1 className="md:text-6xl text-4xl text-white text-center font-bold md:mr-6 my-4">
-          Join the <span className="text-pink-700">boom</span> fun.
+          Join the <span className="text-yellow-700">creative</span> fun.
         </h1>
 
         <form className="bg-black text-white md:p-16 p-8 rounded-md flex flex-col w-11/12 md:w-5/12 items-center md:items-start mt-4">

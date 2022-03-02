@@ -2,10 +2,9 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { BiBarChartSquare, BiAlbum, BiPlus } from "react-icons/bi";
-import Theweekend from "../assets/Graphicsdesign.png";
-import Burna from "../assets/Graphicsdesign.png";
-import Twice from "../assets/Graphicsdesign.png";
-import Jon from "../assets/Graphicsdesign.png";
+import Graphics from "../assets/Graphicsdesign.png";
+import Graphicsdesign from "../assets/Graphicsdesign.png";
+
 import { Link } from "react-router-dom";
 
 export const Discover = () => {
@@ -15,7 +14,7 @@ export const Discover = () => {
       <div className="flex flex-col md:flex-row justify-center md:justify-between items-center md:mb-4">
         <div className="md:ml-32">
           <h1 className="text-3xl text-white text-center mb-8">
-            Discover New Talents.
+            Discover New Music
           </h1>
           <div className="flex justify-center items-center mx-2 my-10">
             <div className="flex flex-col justify-center items-center bg-black rounded-md p-4 w-2/6 mr-2 md:mr-6 text-white text-center">
@@ -25,7 +24,7 @@ export const Discover = () => {
 
             <div className="flex flex-col justify-center items-center bg-black rounded-md p-4 w-2/6 mr-2 md:mr-6 text-white text-center">
               <BiAlbum className="text-2xl md:text-4xl" />
-              <h4>Albums</h4>
+              <h4>Community</h4>
             </div>
 
             <div className="flex flex-col justify-center items-center bg-black rounded-md p-4 w-2/6 text-white text-center">
@@ -39,28 +38,28 @@ export const Discover = () => {
             <Link to="/join">
               <span className="text-pink-700">join</span>
             </Link>
-            by joining you get to meet amazing talents / minds
+            ing you benefit by connecting with amzing talents
           </h2>
         </div>
 
         <div>
           <div className="mb-4 md:md-0">
             <div className="flex justify-center items-center p-4 mr-2 text-white">
-              <img src={Theweekend} alt="img" className="w-3/6 md:w-2/6" />
-              <img src={Burna} alt="img" className="w-3/6 md:w-2/6" />
+              <img src={Graphics} alt="img" className="w-3/6 md:w-2/6" />
+              <img src={Graphicsdesign} alt="img" className="w-3/6 md:w-2/6" />
             </div>
 
             <div className="flex justify-center items-center p-4 mr-2 -mt-8">
-              <img src={Twice} alt="img" className="w-3/6 md:w-2/6" />
-              <img src={Jon} alt="img" className="w-3/6 md:w-2/6" />
+              <img src={Graphics} alt="img" className="w-3/6 md:w-2/6" />
+              <img src={Graphics} alt="img" className="w-3/6 md:w-2/6" />
             </div>
           </div>
           <h2 className="md:hidden text-white text-center p-3 text-xl mb-8">
             By{" "}
             <Link to="/join">
-              <span className="text-pink-700">joining </span>
+              <span className="text-pink-700">join</span>
             </Link>
-              you get connected to creatives all over the world.
+            ing you benefit by connecting with amazing talent
           </h2>
         </div>
       </div>

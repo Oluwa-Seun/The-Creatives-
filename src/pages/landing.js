@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import Graphicsdesign from "../assets/Graphicsdesign.png";
+import Creatives from "../assets/Creatives.png";
 import { Link } from "react-router-dom";
 
 export const Landing = () => {
@@ -22,14 +22,14 @@ export const Landing = () => {
         </span>
 
         <div className="md:flex md:justify-evenly px-10 md:px-0 pt-4 md:pt-0 items-center justify-center absolute mx-auto">
-          <img src={Graphicsdesign} alt="img" className="md:w-2/6 md:mt-10 mt-3" />
+          <img src={Creatives} alt="img" className="md:w-2/6 md:mt-10 mt-3" />
 
           <div className="text-white flex flex-col items-center text-center py-3 ">
             <h2 className="md:text-6xl font-bold text-4xl md:mb-6 mb-2">
               Creatives on the go.
             </h2>
             <p className="md:text-3xl text-2xl leading-loose">
-              Join over 500 creatives on the go with one click
+              Join over 500 creatives on the go
             </p>
             <Link to="/join">
               <button className="rounded bg-blue-600 hover:bg-blue-700 px-10 py-3 md:mt-10 mt-4 text-xl mx-auto">

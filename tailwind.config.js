@@ -5,10 +5,10 @@ module.exports = {
     extend: {
       colors: {
         transparent: "transparent",
-        purply: "#160F29",
-        pulp: "#5C246E",
-        pulpy: "#301934",
-        palegreen: "#1f4026",
+        purply: "#000",
+        pulp: "#FF7F50",
+        pulpy: "#FFA500",
+        palegreen: "#FF8C00",
       },
       fontFamily: {
         poppins: "Poppins",
