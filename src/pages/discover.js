@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import { BiBarChartSquare, BiAlbum, BiPlus } from "react-icons/bi";
 import Graphics from "../assets/Graphicsdesign.png";
 import Graphicsdesign from "../assets/Graphicsdesign.png";
+import Hi from "../assets/Hi.JPG";
 
 import { Link } from "react-router-dom";
 
@@ -45,7 +46,7 @@ export const Discover = () => {
         <div>
           <div className="mb-4 md:md-0">
             <div className="flex justify-center items-center p-4 mr-2 text-white">
-              <img src={Graphics} alt="img" className="w-3/6 md:w-2/6" />
+              <img src={Hi} alt="img" className="w-3/6 md:w-2/6" />
               <img src={Graphicsdesign} alt="img" className="w-3/6 md:w-2/6" />
             </div>
 

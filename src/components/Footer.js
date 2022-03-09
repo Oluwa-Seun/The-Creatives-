@@ -17,7 +17,7 @@ const Footer = () => {
             <TiSocialTwitterCircular className="text-pink-800 text-3xl mr-1" />
 
             <div>
-              <Link className="md:mr-10 mr-4">Twitter</Link>
+              <Link className="md:mr-10 mr-4" href="@2alifa" >Twitter</Link>
             </div>
           </div>
 
@@ -26,6 +26,15 @@ const Footer = () => {
 
             <div className="mr-1">
               <Link>Facebook</Link>
+            </div>
+          </div>
+
+          
+          <div className="flex items-center">
+            <AiOutlineFacebook className="text-pink-800 text-2xl mr-1" />
+
+            <div className="mr-1">
+              <Link></Link>
             </div>
           </div>
         </div>
